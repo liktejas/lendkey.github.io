@@ -1,0 +1,137 @@
+@media(min-width: 768px) and (max-width: 991px){
+    .borrownlend{
+        padding: 0.5rem 2.5rem;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .login{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    border-color:$button_color;
+    border-width: 3px;
+	margin: 0 5px;
+	padding: 0.375rem 1.188rem;
+	outline: none;
+	color: $text_color;
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 1.4;
+    text-align: center;
+        &:hover{
+        background-color: $button_color;
+        color: $text_color;
+        }
+    }
+    .trust_loans{
+        height: 800px;
+        margin-top: 100px;
+        background-color: #f1f1f1;
+        h2{
+            padding-top: 6.25rem;
+        }
+        p{
+            padding: 0.625rem 2rem 0;
+        }
+        video{
+            margin-top: 2.188rem;
+            width: 100%;
+            height: auto;
+            border: 0.5rem solid white;
+            border-radius: 1.563rem;
+            box-shadow: 0 0 0.313rem #21b9de;
+        }
+    }
+    .how_works{
+        height: 44rem;
+        h1{
+            padding: 5.75rem 6.25rem;
+        }
+        p{
+            padding: 1.25rem 1.125rem 0;
+        }
+    }
+    .better_loan{
+        h1{
+            padding-top: 6.75rem;
+            padding-bottom: 2.5rem;
+        }
+        p{
+            padding: 0 2rem 0;
+            font-size: 18px;
+            padding-bottom: 1rem;
+        }
+        .better_loan_btn{
+            padding: 0.625rem 2rem;
+        }
+        .btn1{
+            margin-bottom: 1rem;
+        }
+    }
+    .community_lending{
+        height: 30.5rem;
+        h1{
+            padding-top: 3.75rem;
+            text-align: left;
+        }
+        img{
+            margin-top: 5rem;
+            width: 15rem;
+            margin-left: 2rem!important;
+        }
+    }
+    .customer_service{
+        height: 40rem;
+        h1{
+            padding-top: 5.75rem;
+            padding-bottom: 4.25rem;
+        }
+        p{
+            padding: 0 2.125rem 0;
+            font-size: 18px;
+            padding-bottom: 3.5rem;  
+        }
+    }
+    .lendkey{
+        height: 26.5rem;
+        h1{
+            padding-top: 4.75rem;
+        }
+        .l1{
+            padding-left: 1rem;
+            padding-top: 1rem;
+            font-size: 18px;
+        }
+        .l2{
+            padding-left: 1rem;
+            padding-top: 1.5rem;
+            font-size: 15px;
+            padding-right: 1rem;
+            text-align: justify;
+        }
+    }
+    footer{
+        height: 33rem;
+        .footer_main_text{
+            font-weight: bold;
+            font-size: 1.25rem;
+            color: $text_color;
+            padding-top: 0.5rem;
+        }
+        .footer_sub_text{
+            color: $text_color;
+            font-size: 0.75rem;
+        }
+        .footer_row{
+            padding-bottom: 3rem;
+            text-align: center;
+        }
+        .social_btns{
+            padding-right: 0rem;
+            float: none!important;
+            text-align: center;
+        }
+        img{
+            width: 60px;    
+        }
+    }
+}

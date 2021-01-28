@@ -1,0 +1,911 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.brand_name {
+  font-size: 2.25rem;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+.login {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  border-color: #28a745;
+  border-width: 3px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.login:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.bgimg {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/people.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/people.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 75vh;
+}
+
+.main_labels {
+  margin-top: 15vh;
+}
+
+.main_labels:first-child {
+  color: white;
+  font-weight: bold;
+}
+
+.main_labels:last-child {
+  color: white;
+}
+
+.borrownlend {
+  padding: 0.625rem 5rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.number_info {
+  height: 25vh;
+}
+
+.num_one {
+  background-color: #1c767c;
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.num_one h1 {
+  font-weight: bold;
+  color: #21b9de;
+}
+
+.num_one p {
+  color: white;
+}
+
+.num_two {
+  background-color: #70aec5;
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.num_two h1 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.num_two p {
+  color: white;
+}
+
+.num_three {
+  background-color: #636768;
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.num_three h1 {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.num_three p {
+  color: white;
+}
+
+.trust_loans {
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.trust_loans h2 {
+  padding-top: 6.25rem;
+  font-weight: bold;
+}
+
+.trust_loans p {
+  padding: 0.625rem 6.25rem 0;
+}
+
+.trust_loans video {
+  margin-top: 2.188rem;
+  width: 60%;
+  height: auto;
+  border: 1.875rem solid white;
+  border-radius: 1.563rem;
+  -webkit-box-shadow: 0 0 0.313rem #21b9de;
+          box-shadow: 0 0 0.313rem #21b9de;
+}
+
+.how_works {
+  height: 100vh;
+  background-color: #70aec5;
+}
+
+.how_works h1 {
+  font-weight: bold;
+  color: white;
+  padding: 9.75rem 6.25rem;
+}
+
+.how_works hr {
+  width: 10%;
+  background-color: white;
+}
+
+.how_works .mdi {
+  font-size: 75px;
+}
+
+.how_works h4 {
+  color: white;
+}
+
+.how_works p {
+  color: white;
+  padding: 1.25rem 3.125rem 0;
+}
+
+.better_loan {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/better_loan.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/better_loan.jpeg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.better_loan h1 {
+  font-weight: bold;
+  color: white;
+  padding-top: 9.75rem;
+  padding-bottom: 5.5rem;
+}
+
+.better_loan p {
+  color: white;
+  padding: 0 3.125rem 0;
+  font-size: 20px;
+  padding-bottom: 5.5rem;
+}
+
+.better_loan .better_loan_btn {
+  color: white;
+  border-color: white;
+  border: 2px solid #fff;
+  padding: 0.625rem 5rem;
+}
+
+.better_loan .better_loan_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.community_lending {
+  height: 75vh;
+  background-color: #f1f1f1;
+}
+
+.community_lending h1 {
+  font-weight: bold;
+  padding-top: 10.75rem;
+  padding-bottom: 2.25rem;
+  text-align: left;
+}
+
+.community_lending .comm_p1 {
+  padding-bottom: 2.25rem;
+}
+
+.community_lending .comm_p2 {
+  padding-bottom: 2.25rem;
+}
+
+.community_lending:nth-child(2) {
+  color: red;
+}
+
+.community_lending .learn_more {
+  color: white;
+  background-color: #28a745;
+  padding: 7px 30px 7px 30px;
+  border: 1px solid white;
+}
+
+.community_lending img {
+  margin-top: 5rem;
+  width: 25rem;
+}
+
+.customer_service {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/customer_service.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/customer_service.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.customer_service h1 {
+  font-weight: bold;
+  padding-top: 10.75rem;
+  padding-bottom: 6.25rem;
+  color: white;
+}
+
+.customer_service p {
+  color: white;
+  padding: 0 3.125rem 0;
+  font-size: 20px;
+  padding-bottom: 5.5rem;
+}
+
+.customer_service button {
+  color: white;
+  border-color: white;
+  border: 2px solid #fff;
+  padding: 0.625rem 5rem;
+}
+
+.customer_service button:hover {
+  color: black;
+  background-color: white;
+}
+
+.lendkey {
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.lendkey h1 {
+  padding-top: 8.75rem;
+  font-weight: bold;
+}
+
+.lendkey .l1 {
+  padding-left: 12rem;
+  padding-top: 6rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.lendkey .l2 {
+  padding-left: 12rem;
+  padding-top: 3rem;
+  font-size: 1.2rem;
+  padding-right: 3rem;
+  text-align: justify;
+  line-height: 35px;
+}
+
+footer {
+  padding-top: 4rem;
+  height: 47vh;
+  background-color: #343a40;
+}
+
+footer .footer_main_text {
+  font-weight: bold;
+  color: white;
+}
+
+footer .footer_sub_text {
+  color: white;
+  font-size: 0.75rem;
+}
+
+footer .footer_row {
+  padding-bottom: 3rem;
+}
+
+footer hr {
+  width: 95%;
+  margin-left: 2%;
+  text-align: center;
+  background-color: white;
+}
+
+footer .copyright {
+  color: white;
+}
+
+footer .social_btns {
+  padding-right: 3rem;
+}
+
+footer .social_btns a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .social_btns a:first-child:hover {
+  color: #3b5998;
+}
+
+footer .social_btns a:nth-child(2):hover {
+  color: #00acee;
+}
+
+footer .social_btns a:last-child:hover {
+  color: #0e76a8;
+}
+
+@media (min-width: 992px) {
+  .trust_loans {
+    height: 110vh;
+  }
+  .community_lending h1 {
+    padding-top: 6.75rem;
+  }
+  .how_works h1 {
+    padding: 7.75rem 6.25rem;
+  }
+  .customer_service h1 {
+    padding-top: 8.75rem;
+  }
+  footer {
+    height: 65vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .borrownlend {
+    padding: 0.5rem 2.5rem;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .login {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    border-color: #28a745;
+    border-width: 3px;
+    margin: 0 5px;
+    padding: 0.375rem 1.188rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .login:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  .trust_loans {
+    height: 800px;
+    margin-top: 100px;
+    background-color: #f1f1f1;
+  }
+  .trust_loans h2 {
+    padding-top: 6.25rem;
+  }
+  .trust_loans p {
+    padding: 0.625rem 2rem 0;
+  }
+  .trust_loans video {
+    margin-top: 2.188rem;
+    width: 100%;
+    height: auto;
+    border: 0.5rem solid white;
+    border-radius: 1.563rem;
+    -webkit-box-shadow: 0 0 0.313rem #21b9de;
+            box-shadow: 0 0 0.313rem #21b9de;
+  }
+  .how_works {
+    height: 44rem;
+  }
+  .how_works h1 {
+    padding: 5.75rem 6.25rem;
+  }
+  .how_works p {
+    padding: 1.25rem 1.125rem 0;
+  }
+  .better_loan h1 {
+    padding-top: 6.75rem;
+    padding-bottom: 2.5rem;
+  }
+  .better_loan p {
+    padding: 0 2rem 0;
+    font-size: 18px;
+    padding-bottom: 1rem;
+  }
+  .better_loan .better_loan_btn {
+    padding: 0.625rem 2rem;
+  }
+  .better_loan .btn1 {
+    margin-bottom: 1rem;
+  }
+  .community_lending {
+    height: 30.5rem;
+  }
+  .community_lending h1 {
+    padding-top: 3.75rem;
+    text-align: left;
+  }
+  .community_lending img {
+    margin-top: 5rem;
+    width: 15rem;
+    margin-left: 2rem !important;
+  }
+  .customer_service {
+    height: 40rem;
+  }
+  .customer_service h1 {
+    padding-top: 5.75rem;
+    padding-bottom: 4.25rem;
+  }
+  .customer_service p {
+    padding: 0 2.125rem 0;
+    font-size: 18px;
+    padding-bottom: 3.5rem;
+  }
+  .lendkey {
+    height: 26.5rem;
+  }
+  .lendkey h1 {
+    padding-top: 4.75rem;
+  }
+  .lendkey .l1 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 18px;
+  }
+  .lendkey .l2 {
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    font-size: 15px;
+    padding-right: 1rem;
+    text-align: justify;
+  }
+  footer {
+    height: 33rem;
+  }
+  footer .footer_main_text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    padding-top: 0.5rem;
+  }
+  footer .footer_sub_text {
+    color: white;
+    font-size: 0.75rem;
+  }
+  footer .footer_row {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  footer .social_btns {
+    padding-right: 0rem;
+    float: none !important;
+    text-align: center;
+  }
+  footer img {
+    width: 60px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .borrownlend {
+    padding: 0.3rem 1.5rem;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .login {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    border-color: #28a745;
+    border-width: 3px;
+    margin: 0 5px;
+    padding: 0.375rem 1.188rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .login:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  .trust_loans {
+    height: 750px;
+    margin-top: 500px;
+    background-color: #f1f1f1;
+  }
+  .trust_loans h2 {
+    padding-top: 6.25rem;
+  }
+  .trust_loans p {
+    padding: 0.625rem 2rem 0;
+  }
+  .trust_loans video {
+    margin-top: 2.188rem;
+    width: 100%;
+    height: auto;
+    border: 0.5rem solid white;
+    border-radius: 1.563rem;
+    -webkit-box-shadow: 0 0 0.313rem #21b9de;
+            box-shadow: 0 0 0.313rem #21b9de;
+  }
+  .how_works {
+    height: 46rem;
+  }
+  .how_works h1 {
+    padding: 5.75rem 6.25rem;
+  }
+  .how_works p {
+    padding: 1.25rem 1.125rem 0;
+  }
+  .better_loan h1 {
+    padding-top: 6.75rem;
+    padding-bottom: 2.5rem;
+  }
+  .better_loan p {
+    padding: 0 2rem 0;
+    font-size: 18px;
+    padding-bottom: 1rem;
+  }
+  .better_loan .better_loan_btn {
+    padding: 0.625rem 2rem;
+  }
+  .better_loan .btn1 {
+    margin-bottom: 1rem;
+  }
+  .community_lending {
+    height: 50.5rem;
+  }
+  .community_lending h1 {
+    padding-top: 2.75rem;
+    text-align: center;
+  }
+  .community_lending img {
+    margin-top: 5rem;
+    width: 15rem;
+    margin-left: 12rem !important;
+  }
+  .customer_service {
+    height: 40rem;
+  }
+  .customer_service h1 {
+    padding-top: 5.75rem;
+    padding-bottom: 4.25rem;
+  }
+  .customer_service p {
+    padding: 0 2.125rem 0;
+    font-size: 18px;
+    padding-bottom: 3.5rem;
+  }
+  .lendkey {
+    height: 62.5rem;
+  }
+  .lendkey h1 {
+    padding-top: 4.75rem;
+  }
+  .lendkey .l1 {
+    padding-left: 1rem;
+    padding-top: 0rem;
+    font-size: 18px;
+  }
+  .lendkey .l2 {
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    font-size: 15px;
+    padding-right: 1rem;
+    text-align: justify;
+  }
+  footer {
+    height: 52rem;
+  }
+  footer .footer_main_text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    padding-top: 0.5rem;
+  }
+  footer .footer_sub_text {
+    color: white;
+    font-size: 0.75rem;
+  }
+  footer .footer_row {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  footer .social_btns {
+    padding-right: 0rem;
+    float: none !important;
+    text-align: center;
+  }
+  footer img {
+    width: 60px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 574px) {
+  .borrownlend {
+    padding: 0.3rem 1.5rem;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .login {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    border-color: #28a745;
+    border-width: 3px;
+    margin: 0 5px;
+    padding: 0.375rem 1.188rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .login:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  .trust_loans {
+    height: 680px;
+    margin-top: 500px;
+    background-color: #f1f1f1;
+  }
+  .trust_loans h2 {
+    padding-top: 6.25rem;
+  }
+  .trust_loans p {
+    padding: 0.625rem 2rem 0;
+  }
+  .trust_loans video {
+    margin-top: 2.188rem;
+    width: 100%;
+    height: auto;
+    border: 0.5rem solid white;
+    border-radius: 1.563rem;
+    -webkit-box-shadow: 0 0 0.313rem #21b9de;
+            box-shadow: 0 0 0.313rem #21b9de;
+  }
+  .how_works {
+    height: 90.875rem;
+  }
+  .how_works h1 {
+    padding: 5.75rem 6.25rem;
+  }
+  .how_works p {
+    padding: 1.25rem 1.125rem 0;
+  }
+  .better_loan h1 {
+    padding-top: 4.75rem;
+    padding-bottom: 2.5rem;
+  }
+  .better_loan p {
+    padding: 0 2rem 0;
+    font-size: 18px;
+    padding-bottom: 1rem;
+  }
+  .better_loan .better_loan_btn {
+    padding: 0.625rem 2rem;
+  }
+  .better_loan .btn1 {
+    margin-bottom: 1rem;
+  }
+  .community_lending {
+    height: 55.5rem;
+  }
+  .community_lending h1 {
+    padding-top: 2.75rem;
+    text-align: center;
+  }
+  .community_lending img {
+    margin-top: 5rem;
+    width: 20rem;
+    margin-left: 100px !important;
+  }
+  .customer_service {
+    height: 40rem;
+  }
+  .customer_service h1 {
+    padding-top: 5.75rem;
+    padding-bottom: 4.25rem;
+  }
+  .customer_service p {
+    padding: 0 2.125rem 0;
+    font-size: 18px;
+    padding-bottom: 3.5rem;
+  }
+  .lendkey {
+    height: 62.5rem;
+  }
+  .lendkey h1 {
+    padding-top: 4.75rem;
+  }
+  .lendkey .l1 {
+    padding-left: 1rem;
+    padding-top: 0rem;
+    font-size: 18px;
+  }
+  .lendkey .l2 {
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    font-size: 15px;
+    padding-right: 1rem;
+    text-align: justify;
+  }
+  footer {
+    height: 54rem;
+  }
+  footer .footer_main_text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    padding-top: 0.5rem;
+  }
+  footer .footer_sub_text {
+    color: white;
+    font-size: 0.75rem;
+  }
+  footer .footer_row {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  footer .social_btns {
+    padding-right: 0rem;
+    float: none !important;
+    text-align: center;
+  }
+  footer img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .borrownlend {
+    padding: 0.3rem 1.5rem;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .login {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    border-color: #28a745;
+    border-width: 3px;
+    margin: 0 5px;
+    padding: 0.375rem 1.188rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .login:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  .trust_loans {
+    height: 100vh;
+    margin-top: 500px;
+    background-color: #f1f1f1;
+  }
+  .trust_loans h2 {
+    padding-top: 6.25rem;
+  }
+  .trust_loans p {
+    padding: 0.625rem 2rem 0;
+  }
+  .trust_loans video {
+    margin-top: 2.188rem;
+    width: 100%;
+    height: auto;
+    border: 0.5rem solid white;
+    border-radius: 1.563rem;
+    -webkit-box-shadow: 0 0 0.313rem #21b9de;
+            box-shadow: 0 0 0.313rem #21b9de;
+  }
+  .how_works {
+    height: 96.875rem;
+  }
+  .how_works h1 {
+    padding: 5.75rem 6.25rem;
+  }
+  .how_works p {
+    padding: 1.25rem 1.125rem 0;
+  }
+  .better_loan h1 {
+    padding-top: 6.75rem;
+    padding-bottom: 2.5rem;
+  }
+  .better_loan p {
+    padding: 0 2rem 0;
+    font-size: 18px;
+    padding-bottom: 1rem;
+  }
+  .better_loan .better_loan_btn {
+    padding: 0.625rem 2rem;
+  }
+  .better_loan .btn1 {
+    margin-bottom: 1rem;
+  }
+  .community_lending {
+    height: 62.5rem;
+  }
+  .community_lending h1 {
+    padding-top: 2.75rem;
+    text-align: center;
+  }
+  .community_lending img {
+    margin-top: 5rem;
+    width: 15rem;
+  }
+  .customer_service {
+    height: 52rem;
+  }
+  .customer_service h1 {
+    padding-top: 5.75rem;
+    padding-bottom: 4.25rem;
+  }
+  .customer_service p {
+    padding: 0 2.125rem 0;
+    font-size: 18px;
+    padding-bottom: 3.5rem;
+  }
+  .lendkey {
+    height: 62.5rem;
+  }
+  .lendkey h1 {
+    padding-top: 4.75rem;
+  }
+  .lendkey .l1 {
+    padding-left: 1rem;
+    padding-top: 0rem;
+    font-size: 18px;
+  }
+  .lendkey .l2 {
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    font-size: 15px;
+    padding-right: 1rem;
+    text-align: justify;
+  }
+  footer {
+    height: 54rem;
+  }
+  footer .footer_main_text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    padding-top: 0.5rem;
+  }
+  footer .footer_sub_text {
+    color: white;
+    font-size: 0.75rem;
+  }
+  footer .footer_row {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  footer .social_btns {
+    padding-right: 0rem;
+    float: none !important;
+    text-align: center;
+  }
+  footer img {
+    width: 60px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
